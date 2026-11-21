@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.zip
+*.bak-*
+*.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

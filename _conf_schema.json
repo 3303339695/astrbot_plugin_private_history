@@ -1,0 +1,32 @@
+{
+  "enable": {
+    "description": "启用私聊历史查询",
+    "hint": "默认开。开启后会自动记录当前机器人的私聊消息，并在私聊对话里给模型提供查询工具；关掉后不记录、也不挂工具。群聊完全不受影响。",
+    "type": "bool",
+    "default": true
+  },
+  "default_limit": {
+    "description": "默认返回条数",
+    "hint": "模型没指定条数时用这个值。范围 1～100，默认 20。",
+    "type": "int",
+    "default": 20
+  },
+  "max_item_chars": {
+    "description": "单条最多多少字",
+    "hint": "一条消息太长就截断到这个长度（含末尾省略号），范围 10～2000，默认 200。",
+    "type": "int",
+    "default": 200
+  },
+  "max_total_chars": {
+    "description": "一次返回的总长度上限",
+    "hint": "整段结果最多多少个字符，超了就从最旧的开始丢，并在末尾注明还剩多少条。范围 200～20000，默认 4000。",
+    "type": "int",
+    "default": 4000
+  },
+  "keep_messages": {
+    "description": "每个私聊会话保留多少条",
+    "hint": "每个私聊会话最多保留这么多条记录，超出的旧记录会自动删掉。范围 50～20000，默认 1000。",
+    "type": "int",
+    "default": 1000
+  }
+}
