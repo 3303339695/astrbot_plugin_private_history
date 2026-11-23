@@ -13,7 +13,7 @@ help: >-
   机器人用指令回复（不经过模型）的内容不会记录；
   网页聊天有自己的记录方式，本插件不重复记，也不在网页聊天里提供这个工具。
 version: 1.0.0
-author: 3303339695
+author: 咱
 repo: https://github.com/3303339695/astrbot_plugin_private_history
 astrbot_version: ">=4.20.0"
 tags:
